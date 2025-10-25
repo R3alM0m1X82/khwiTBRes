@@ -46,7 +46,7 @@ This project was inspired by the excellent research of [**@_xpn_**](https://twit
 ### **khwiTBRes.exe** - TBRES Decryptor
 C# executable that decrypts TokenBroker cache files and extracts token information.
 
-### **BuildAndRun-khwiTBRes_WORKING.ps1** - Build & Execution Script
+### **BuildAndRun-khwiTBRes.ps1** - Build & Execution Script
 PowerShell script that compiles the C# source and runs the decryptor automatically.
 
 ---
@@ -67,7 +67,7 @@ PowerShell script that compiles the C# source and runs the decryptor automatical
 
 ```powershell
 # Compile and run the decryptor
-.\BuildAndRun-khwiTBRes_WORKING.ps1
+.\BuildAndRun-khwiTBRes.ps1
 ```
 
 **Output Example:**
@@ -112,13 +112,13 @@ Decrypted tokens are saved as `.decrypted` files in the current directory. You c
 
 ```powershell
 # Build and run automatically (default)
-.\BuildAndRun-khwiTBRes_WORKING.ps1
+.\BuildAndRun-khwiTBRes.ps1
 
 # Build only (don't execute)
-.\BuildAndRun-khwiTBRes_WORKING.ps1 -BuildOnly
+.\BuildAndRun-khwiTBRes.ps1 -BuildOnly
 
 # Show help
-.\BuildAndRun-khwiTBRes_WORKING.ps1 -Help
+.\BuildAndRun-khwiTBRes.ps1 -Help
 ```
 
 ### Manual Execution
@@ -137,7 +137,7 @@ Get-ChildItem *.decrypted
 # Works perfectly over PowerShell remoting!
 Enter-PSSession -ComputerName TARGET-PC
 cd C:\Path\To\Tool
-.\BuildAndRun-khwiTBRes_WORKING.ps1
+.\BuildAndRun-khwiTBRes.ps1
 ```
 
 ASCII banners (`###`) are visible even without color support.
@@ -194,7 +194,7 @@ The tool detects both known variants:
 
 ```
 khwiTBRes/
-├── BuildAndRun-khwiTBRes_WORKING.ps1    # Main build & execution script
+├── BuildAndRun-khwiTBRes.ps1    # Main build & execution script
 ├── README.md                              # This file
 ├── LICENSE                                # MIT License
 └── .gitignore                             # Git ignore rules
