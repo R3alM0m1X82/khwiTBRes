@@ -1,6 +1,5 @@
-# khwiTBRes Decryptor - Build and Run Script
+# khwiTBRes - TokenBroker Hunter
 # Enhanced TBRES decryptor compatible with .NET Framework 4.x
-# SIMPLE VERSION - PSRemoting compatible with ASCII banners
 
 param(
     [switch]$BuildOnly,
@@ -359,9 +358,9 @@ namespace khwiTBRes
 
         public static void Main(string[] args)
         {
-            Console.WriteLine("khwiTBRes Decryptor");
+            Console.WriteLine("khwiTBRes - TokenBroker Hunter");
             Console.WriteLine("Enhanced TBRES Decryption Tool - with Office Master AppID detection");
-            Console.WriteLine("By r3alm0m1x82/safebreach.it - based on work by @_xpn_");
+            Console.WriteLine("By r3alm0m1x82/safebreach.it - inspired by the work of @_xpn_");
             Console.WriteLine("");
             
             string path = Path.Combine(
@@ -470,3 +469,4 @@ Write-Host ""
 
 Write-Host ""
 Write-Host "=== Done ===" -ForegroundColor Cyan
+
