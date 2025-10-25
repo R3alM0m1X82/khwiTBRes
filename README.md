@@ -1,11 +1,13 @@
 # khwiTBRes - TokenBroker Hunter
 
 ```
- _    _               _ _____ ___  ___          
-| | _| |____      __ (_)_   _| _ \|   \ ___ ___ 
-| |/ / '_ \ \ /\ / / | | | | | _ /| |) / -_|_-< 
-|___/|_| |_\ V  V /  |_| |_| |___/|___/\___/__/ 
-                                                 
+  _    _             _ _________________          
+ | |  | |           (_)_   _| ___ \ ___ \         
+ | | _| |____      ___  | | | |_/ / |_/ /___  ___ 
+ | |/ / '_ \ \ /\ / / | | | | ___ \    // _ \/ __|
+ |   <| | | \ V  V /| | | | | |_/ / |\ \  __/\__ \
+ |_|\_\_| |_|\_/\_/ |_| \_/ \____/\_| \_\___||___/
+                                                                                                 
     Windows TokenBroker Cache Decryptor
     Office Master AppID Token Extractor
 ```
@@ -20,7 +22,7 @@
 
 **khwiTBRes** is a specialized Windows security research tool that decrypts and analyzes cached tokens from the Windows TokenBroker (`%LOCALAPPDATA%\Microsoft\TokenBroker\Cache`). It focuses on identifying and extracting **Office Master AppID tokens** (`d3590ed6-52b3-4102-aeff-aad2292ab01c`) commonly used by Microsoft Office applications.
 
-This project was inspired by the excellent research of [**@_xpn_**](https://twitter.com/_xpn_) on Windows token manipulation and DPAPI decryption techniques.
+This project was inspired by the excellent research of [**@_xpn_**](https://twitter.com/_xpn_) (WBAM/TBRES) on Windows token manipulation and DPAPI decryption techniques.
 
 ### 🎯 Key Features
 
