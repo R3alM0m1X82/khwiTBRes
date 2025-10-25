@@ -184,7 +184,6 @@ The tool detects both known variants:
 
 ### ⚠️ Important Notes
 - Must run as the **logged-in user** (DPAPI is user-scoped)
-- **Do NOT run as Administrator** - tokens won't decrypt correctly
 - Tokens expire - check the `expires` field
 - Some EDR/AV may flag DPAPI usage on sensitive files
 
@@ -199,14 +198,7 @@ khwiTBRes/
 ├── LICENSE                                # MIT License
 └── .gitignore                             # Git ignore rules
 ```
-
----
-
-## 🙏 Credits
-
-- **[@_xpn_](https://twitter.com/_xpn_)** - Original research on TokenBroker and DPAPI techniques
-- **[R3alM0m1X82](https://github.com/R3alM0m1X82)** - Tool development and red team adaptation
-
+  
 ---
 
 ## 📄 License
